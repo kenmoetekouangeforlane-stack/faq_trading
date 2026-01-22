@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  background: #0b1f3a;
+  color: #ffffff;
+}
+
+/* HEADER */
+.header {
+  padding: 20px;
+  background: #08182f;
+}
+
+.logo-zone {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.logo {
+  width: 60px;
+}
+
+.logo-zone h1 span {
+  color: #f5c542;
+}
+
+/* INTRO */
+.intro {
+  padding: 40px 10%;
+  text-align: center;
+}
+
+.intro h2 {
+  color: #f5c542;
+  margin-bottom: 15px;
+}
+
+/* GALLERY */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+  padding: 30px 10%;
+}
+
+.gallery img {
+  width: 100%;
+  border-radius: 12px;
+}
+
+/* FAQ */
+.faq {
+  padding: 40px 10%;
+}
+
+.faq-item {
+  background: rgba(255,255,255,0.05);
+  padding: 20px;
+  border-left: 5px solid #f5c542;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.faq-item h3 {
+  color: #f5c542;
+  margin-bottom: 10px;
+}
+
+.video {
+  width: 100%;
+  margin-top: 15px;
+  border-radius: 10px;
+}
+
+/* CTA */
+.cta {
+  background: #08182f;
+  padding: 50px 10%;
+  text-align: center;
+}
+
+.cta h2 {
+  color: #f5c542;
+  margin-bottom: 10px;
+}
+
+.btn-inscription {
+  margin-top: 20px;
+  padding: 15px 30px;
+  background: #25d366;
+  color: #fff;
+  border: none;
+  font-size: 18px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.btn-inscription:hover {
+  transform: scale(1.05);
+}
